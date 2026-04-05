@@ -1,6 +1,6 @@
 // Number Pattern PrintinG PrOgram =|
 
-// case 1 -
+// case 1 - This is a code of Number Triangle Question.
 
 #include <stdio.h>
 
@@ -17,7 +17,7 @@ int main() {
     return 0;
 }
 
-// case 2 -
+// case 2 - This is code of Inverted Triangle Question.
 
 int main() {
     int n;
@@ -34,7 +34,7 @@ int main() {
     return 0;
 }
 
-// case 3 -
+// case 3 - This is code of Right Pyramid Question.
 
 int main() {
     int n;
@@ -56,7 +56,7 @@ int main() {
     return 0;
 }
 
-// case 4 -
+// case 4 - This is a code of Same Number pattern Question.
 
 int main() {
     int n;
@@ -74,7 +74,7 @@ int main() {
 
 }
 
-// case 5 -
+// case 5 - This is a code of Floyd's Triangle Question
 
 int main() {
     int n,num = 1;
@@ -91,7 +91,7 @@ int main() {
     return 0;
 }
 
-// case 6 -
+// case 6 - This is the famous Diamond Pattern Question.
 
 int main()
 {
@@ -127,7 +127,7 @@ int main()
     return 0;
 }
 
-// case 7 --
+// case 7 -- This is the code of Hollow Square Question.
 
 int main() {
     int n;
