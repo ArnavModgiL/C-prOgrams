@@ -4,6 +4,7 @@
 // 6 -> 1 + 2 + 3 = 6 Ese Type okIe
 
 #include<stdio.h>
+
 int main() {
     int num,i;
     int sum = 0;
@@ -22,4 +23,5 @@ int main() {
     else {
         printf("Not Perfect :");
     }
+    return 0;
 }
