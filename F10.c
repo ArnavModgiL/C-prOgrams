@@ -1,4 +1,4 @@
-// Linear Search code  : --
+// Linear Search code Question : --
 
 #include<stdio.h>
 
