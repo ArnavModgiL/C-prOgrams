@@ -1,11 +1,12 @@
 // Decimal To Binary converstion Question --:|
 
 #include <stdio.h>
+
 int main() {
     int num,binary[32];
     int i = 0;
 
-    printf("Enter the nUMBER: ");
+    printf("Enter the Number: ");
     scanf("%d",&num);
 
     while(num>0){
@@ -19,5 +20,4 @@ int main() {
         printf("%d\n",binary[j]);
     }
     return 0;
-
 }
