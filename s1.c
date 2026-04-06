@@ -1,7 +1,6 @@
 // Decimal To Binary converstion Question --:|
 
 #include <stdio.h>
-
 int main() {
     int num,binary[32];
     int i = 0;
