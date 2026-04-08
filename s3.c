@@ -1,8 +1,8 @@
-// The Famous First + Last Occurrence Question : --
+//  First + Last Occurrence AnD ToTal Occurrence QuestioN: --
 
-// ✔ Array sorted hona chahiye
+// ✔ Array sorted hona chahiye <---- Main Important Think WIthout sorting It Might be rise an error ]
 
-/* Is program me:
+/* Is program me: --
 
 User array size enter karega
 User sorted array input karega
@@ -11,14 +11,12 @@ Program first aur last occurrence print karega */
 
 #include <stdio.h>
 
-int firstOccurrence(int arr[], int n, int x)
-{
+int firstOccurrence(int arr[], int n, int x) {
     int low = 0;
     int high = n - 1;
     int result = -1;
 
-    while (low <= high)
-    {
+    while (low <= high) {
         int mid = (low + high) / 2;
 
         if (arr[mid] == x)
@@ -39,8 +37,7 @@ int firstOccurrence(int arr[], int n, int x)
     return result;
 }
 
-int lastOccurrence(int arr[], int n, int x)
-{
+int lastOccurrence(int arr[], int n, int x){
     int low = 0;
     int high = n - 1;
     int result = -1;
@@ -67,8 +64,7 @@ int lastOccurrence(int arr[], int n, int x)
     return result;
 }
 
-int main()
-{
+int main(){
     int n, x;
     printf("Enter Number of elements: ");
     scanf("%d", &n);
@@ -115,4 +111,4 @@ Output:
 
 First Occurrence index: 2
 Last Occurrence index: 4
-Total occurrences: 3 */
+Total occurrences: 3 */ 
