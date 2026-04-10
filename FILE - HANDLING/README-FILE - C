@@ -1,0 +1,40 @@
+📁 File Handling in C :
+
+Welcome to the File Handling module of my C Programming journey. This folder contains robust implementations of persistent data storage, demonstrating how to bridge the gap between volatile RAM and permanent disk storage.
+
+📝 Description:
+
+File handling is a crucial concept in C that allows a program to save data permanently. This repository focuses on mastering the stdio.h file operations, ensuring data integrity, and implementing efficient I/O (Input/Output) patterns.
+
+🚀 Key Features Implemented
+Persistent Storage: Moving beyond runtime memory to save data in .txt and .dat formats.
+
+File Modes: Practical implementation of various access modes:
+
+"r" (Read): Accessing existing data safely.
+
+"w" (Write): Creating new files and overwriting data.
+
+"a" (Append): Adding new information to the end of existing files without data loss.
+
+Formatted I/O: Using fprintf() and fscanf() for structured data management.
+
+Error Handling: Implementing NULL pointer checks and feof() to handle "File Not Found" or "End of File" scenarios gracefully.
+
+Stream Management: Ensuring zero memory leaks by always using fclose() to free system resources.
+
+🛠️ Technical Concepts Covered :
+File Pointers: Understanding FILE *fp and its lifecycle.
+
+Buffer Management: How C handles data streams between the program and the hard drive.
+
+Sequential Access: Reading and writing data line-by-line using fgets() and fputs().
+
+📊 Learning Outcomes:
+
+Through this module, I have mastered the ability to create programs that can "remember" data even after the computer is turned off.
+This is a stepping stone toward building real-world applications like Database Management Systems and Log Analyzers.
+
+Author: ARNAV MODGIL :-
+
+Status: 🟢 Active Learning & Development
