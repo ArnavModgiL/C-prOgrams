@@ -1,1 +1,142 @@
+# Dynamic Memory Allocation in C
+
+This repository contains programs and examples related to **Dynamic Memory Allocation (DMA)** in the C programming language.
+Dynamic memory allocation allows programs to allocate memory during runtime instead of compile time, making programs more flexible and efficient.
+
+---
+
+## 📌 What is Dynamic Memory Allocation?
+
+Dynamic Memory Allocation is the process of allocating memory at **runtime** using functions provided in the `stdlib.h` library.
+Unlike static memory allocation where memory size is fixed, dynamic memory allocation allows the program to request memory as needed while the program is running.
+Memory allocated dynamically is stored in the **heap area**.
+
+---
+
+## 🧠 Why Dynamic Memory Allocation is Important
+
+* Allows flexible memory usage
+* Memory size can be decided during runtime
+* Efficient for large data handling
+* Useful in advanced data structures such as:
+
+  * Linked Lists
+  * Trees
+  * Graphs
+  * Dynamic Arrays
+
+---
+
+## ⚙️ Functions Used in Dynamic Memory Allocation
+
+C provides four main functions for dynamic memory allocation:
+
+### 1️⃣ malloc()
+
+`malloc()` stands for **Memory Allocation**.
+It allocates a block of memory but does **not initialize** the memory.
+
+```c
+ptr = (int*) malloc(n * sizeof(int));
+```
+
+---
+
+### 2️⃣ calloc()
+
+`calloc()` stands for **Contiguous Allocation**.
+It allocates memory and **initializes all values to 0**.
+
+```c
+ptr = (int*) calloc(n, sizeof(int));
+```
+
+---
+
+### 3️⃣ realloc()
+
+`realloc()` is used to **resize the allocated memory block**.
+
+```c
+ptr = (int*) realloc(ptr, new_size);
+```
+
+---
+
+### 4️⃣ free()
+
+`free()` releases the dynamically allocated memory.
+
+```c
+free(ptr);
+```
+
+This helps prevent **memory leaks**.
+
+---
+
+## 💻 Example Program
+
+```c
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+
+    int n;
+    int *arr;
+
+    printf("Enter number of elements: ");
+    scanf("%d",&n);
+
+    arr = (int*) malloc(n * sizeof(int));
+
+    for(int i = 0; i < n; i++) {
+        scanf("%d",&arr[i]);
+    }
+
+    printf("Elements are:\n");
+
+    for(int i = 0; i < n; i++) {
+        printf("%d ",arr[i]);
+    }
+
+    free(arr);
+
+    return 0;
+}
+```
+
+---
+
+## 📚 Topics Covered
+
+* Introduction to Dynamic Memory Allocation
+* `malloc()` function
+* `calloc()` function
+* `realloc()` function
+* `free()` function
+* Practical examples
+
+---
+
+## 🎯 Learning Purpose
+
+This repository is created for **learning and practicing C programming concepts**, especially dynamic memory allocation which is an important topic for **Data Structures and Algorithms (DSA)**.
+
+---
+
+## 🚀 Future Improvements
+
+* Dynamic Array implementation
+* Dynamic 2D arrays
+* Linked List using dynamic memory
+* Memory management examples
+
+---
+
+## 👨‍💻 Author
+
+Arnav Modgil
+BTech Student | Learning C, Python and Data Structures
 
