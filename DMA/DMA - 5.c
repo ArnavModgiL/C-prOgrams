@@ -15,8 +15,6 @@ int main() {
             sum = sum + arr[i];
         }
         printf("Sum = %d",sum);
-
         free(arr);
         return 0;
-
     }
