@@ -1,0 +1,22 @@
+// SUM OF ELEMENTS USING DYNAMIC MEMORY  -
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main() {
+
+    int n, sum = 0;
+
+    scanf("%d",&n);
+    int * arr = (int * )malloc ( n * sizeof(int));
+
+    for(int i = 0; i < n; i++) {
+            scanf("%d",&arr[i]);
+            sum = sum + arr[i];
+        }
+        printf("Sum = %d",sum);
+
+        free(arr);
+        return 0;
+
+    }
