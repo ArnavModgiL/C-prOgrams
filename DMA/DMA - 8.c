@@ -21,7 +21,7 @@ int main()  {
         }
     }
 
-    printf("MACX =  %d",max);
+    printf("MAX = %d",max);
 
     free(arr);
     return 0;
