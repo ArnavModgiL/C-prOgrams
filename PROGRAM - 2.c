@@ -1,4 +1,4 @@
-// count Frequency fo each digit in Number : -
+// count Frequency for each digit in Number : -
 
 #include<stdio.h>
 
@@ -13,7 +13,6 @@ int main() {
         int digit = n % 10;
         freq[digit]++;
         n = n / 10;
-
     }
 
     for(int i = 0; i < 10; i++) {
@@ -22,5 +21,4 @@ int main() {
         }
     }
     return 0;
-
 }
