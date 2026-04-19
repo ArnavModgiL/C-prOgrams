@@ -3,7 +3,7 @@ This repository contains basic to intermediate C programming programs.
 These programs are useful for beginners who are learning C language and want to
 understand important programming concepts.
 
-## Topics Covered
+## Topics Covered :
 
 - Basic Input / Output Programs
 - Conditional Statements
@@ -16,7 +16,7 @@ understand important programming concepts.
 - Pattern Programs
 - Number Based Programs
 
-## Programs Included
+## Programs Included :
 
 Some of the programs in this repository include:
 
@@ -29,11 +29,11 @@ Some of the programs in this repository include:
 - Power Function Using Recursion
 - Pattern Printing Programs
 
-## Purpose of This Repository
+## Purpose of This Repository :
 
 The goal of this repository is to practice and improve problem solving skills
 in C programming.
 
-## Author
+## Author :
 
 Arnav Modgil
