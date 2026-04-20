@@ -1,5 +1,4 @@
-// power (base,exp) code : by recursion:
-
+// power (base,exp) code  by recursion:
 #include<stdio.h>
 
 long power(int base,int exp){
@@ -17,7 +16,6 @@ long power(int base,int exp){
     }
     return 0;
 }
-
 
     int main()
 {
