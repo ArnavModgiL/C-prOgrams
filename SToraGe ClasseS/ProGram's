@@ -1,0 +1,60 @@
+# 📘 Storage Classes in C
+
+This repository contains detailed explanations and C programs related to **Storage Classes in C**.
+
+## 📖 Topics Covered
+
+* Auto Storage Class
+* Register Storage Class
+* Static Storage Class
+* Extern Storage Class
+* Scope of Variables
+* Lifetime of Variables
+* Default Values
+
+---
+
+## 💻 Programs Included
+
+✔ Auto variable example
+✔ Register variable example
+✔ Static variable example
+✔ Extern variable example
+✔ Scope and lifetime examples
+✔ Memory layout examples
+
+---
+
+## 🚀 Purpose of this Repository
+
+This repository is created for learning and practicing **Storage Classes in C** from basic to advanced level.
+
+## 🛠 Language Used
+
+* C Programming
+
+## 📂 Folder Structure
+
+```bash
+Storage-Classes/
+│── auto.c
+│── register.c
+│── static.c
+│── extern.c
+│── README.md
+```
+
+---
+
+## 🎯 Outcome
+
+After studying this repository, you will understand:
+
+* How variables behave in memory
+* Scope and lifetime of variables
+* Difference between static and extern
+* Interview-focused concepts
+
+⭐ If you find this repository useful, give it a star!.
+
+ARNAV MODGIL*
