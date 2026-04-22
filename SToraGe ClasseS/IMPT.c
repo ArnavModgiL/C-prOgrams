@@ -3,7 +3,7 @@
 // This repository contains detailed explanations and C programs related to Storage Classes in C
 
 
-// Static Variable Output Question :
+// Static Variable Output Question : --->
 
 #include<stdio.h>
 
@@ -20,13 +20,22 @@ int main() {
     return 0;
 }
 
-// Find the output.
+Execution:
+1st call → x = 1
+2nd call → x = 2
+3rd call → x = 3
+
+✅ Output:
+
+1 2 3
+
+👉 because static variable apni value retain karta hai.
 
 // Concept: static retains value.
 
 
 
-//  Auto Variable Output Question
+//  Auto Variable Output Question ---->
 
 
 #include<stdio.h>
@@ -44,12 +53,25 @@ int main() {
     return 0;
 }
 
-// Find the output.
+Execution:
+
+Har function call pe x dubara create hota hai:
+
+1st call → 1
+2nd call → 1
+3rd call → 1
+
+✅ Output:
+
+1 1 1
+
+👉 because auto variable recreate hota hai.
+
 
 // Concept: auto variable recreates every function call.
 
 
-// Register Variable Question 
+// Register Variable Question ----->
 
 #include<stdio.h>
 
@@ -61,10 +83,20 @@ int main() {
 
 // What will happen?
 
+✅ Result:
+
+Compile Time Error
+
+👉 because register variable ka address nahi le sakte.
+
+Error like:
+
+error: address of register variable requested
+
 // Concept: register variable ka address nahi le sakte.
 
 
-// Extern Variable Question
+// Extern Variable Question ----->
 
 
 #include<stdio.h>
@@ -78,12 +110,27 @@ int main() {
 
 int x = 50;
 
-//  Find the output.
+
+Execution:
+
+extern int x;
+
+means compiler ko bol rahe ho x kahi aur defined hai.
+
+Later:
+
+int x = 50;
+
+actual definition.
+
+✅ Output:
+
+50
 
 // Concept: declaration vs definition.
 
 
-// Scope + Static Combined :
+// Scope + Static Combined : ------->
 
 #include<stdio.h>
 
@@ -102,6 +149,16 @@ int main() {
     return 0;
 }
 
-//  Find the output.
+Execution:
+
+1st call → 6
+2nd call → 7
+3rd call → 8
+
+✅ Output:
+
+6 7 8
+
+👉 { } block ka koi effect nahi because function call ho raha hai.
 
 // Concept: scope and lifetime.
