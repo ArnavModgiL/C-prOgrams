@@ -1,4 +1,4 @@
-# 📘 Storage Classes in C
+# 📘 Storage Classes in C :
 
 This repository contains detailed explanations and C programs related to **Storage Classes in C**.
 
@@ -14,7 +14,7 @@ This repository contains detailed explanations and C programs related to **Stora
 
 ---
 
-## 💻 Programs Included
+## 💻 Programs Included :
 
 ✔ Auto variable example
 ✔ Register variable example
@@ -25,7 +25,7 @@ This repository contains detailed explanations and C programs related to **Stora
 
 ---
 
-## 🚀 Purpose of this Repository
+## 🚀 Purpose of this Repository :
 
 This repository is created for learning and practicing **Storage Classes in C** from basic to advanced level.
 
@@ -33,7 +33,7 @@ This repository is created for learning and practicing **Storage Classes in C** 
 
 * C Programming
 
-## 📂 Folder Structure
+## 📂 Folder Structure :
 
 ```bash
 Storage-Classes/
@@ -46,7 +46,7 @@ Storage-Classes/
 
 ---
 
-## 🎯 Outcome
+## 🎯 Outcome :
 
 After studying this repository, you will understand:
 
